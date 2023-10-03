@@ -1,3 +1,9 @@
+Step 1: Create the phylogeny.
+Step 2: For each of the models shown in Extended Data Table 1, custom R and bash scripts were used to run 100 corHMM replicates for each model 
+Step 3: For each model, the AIC score of the best ML model was chosen to compare across other models
+
+A. 
+
 ./One_Rate:
 ./One_Rate/randomiplist.n100.csv
 ./One_Rate/2_R.Species.array.sbatch
