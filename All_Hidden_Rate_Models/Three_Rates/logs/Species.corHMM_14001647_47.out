@@ -1,0 +1,5 @@
+starting_ip 47
+State distribution in data:
+States:	1	1&2	2	
+Counts:	17341	13	7019	
+Beginning subplex optimization routine -- Starting value(s): 0.2811991 0.2310932 0.1525605 0.09850346 0.06123669 0.05670817 0.05666667 0.05306594 0.04491881 0.03327544 0.02329346 0.0213953 

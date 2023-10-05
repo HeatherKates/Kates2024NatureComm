@@ -1,0 +1,1 @@
+pxrlt -t ThreeStateTree.notax.phy -c Find_wells.txt -n Replace_taxon_names.txt -o ThreeStates.tax.phy
