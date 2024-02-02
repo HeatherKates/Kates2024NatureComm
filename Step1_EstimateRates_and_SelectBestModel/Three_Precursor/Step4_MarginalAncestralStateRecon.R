@@ -10,8 +10,8 @@ RateCat3 <- getStateMat4Dat(Data)$rate.mat
 RateCat3[3] <- 0
 StateMats <- list(RateCat1, RateCat2,RateCat3)
 HR3.precursorish.FullMat <- getFullMat(StateMats, RateClassMat)
-tipstate_matrix <- read.csv("../Nitfix.statedata.v6.csv",header=TRUE)
-tree <- read.tree("../Nitfix.tree.v6.tree")
+tipstate_matrix <- read.csv("../../InputDataFiles/TipStates.csv",header=TRUE)
+tree <- read.tree("../../InputDataFiles/Phylogeny.WithoutTaxonLabels.tree")
 v6.marginal.bestML <- corHMM(tree,tipstate_matrix,3,rate.mat=HR3.precursorish.FullMat,
                      node.states="marginal",fixed.nodes=FALSE,p=c(5.56396212266485,1e-09,1e-09,0.0500613253447301,0.000462102944338872,0.0115559073396135,1e-09,0.00895228409674974,1e-09,0.0269918965054669,0.088246378783054),root.p=NULL,
                      ip=NULL,nstarts=0,n.cores=1,get.tip.states=FALSE,lewis.asc.bias=FALSE,

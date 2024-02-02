@@ -10,7 +10,7 @@ RateCat3 <- getStateMat4Dat(Data)$rate.mat
 RateCat3[3] <- 0
 StateMats <- list(RateCat1, RateCat2,RateCat3)
 HR3.precursorish.FullMat <- getFullMat(StateMats, RateClassMat)
-tipstate_matrix <- read.csv("TipStates.csv",header=TRUE)
+tipstate_matrix <- read.csv("../InputDataFiles/TipStates.csv",header=TRUE)
 tree <- read.tree("../InputDataFiles/Phylogeny.WithoutTaxonLabels.tree")
 #fixing node
 label.vector=rep(NA,Ntip(tree)+Nnode(tree))
