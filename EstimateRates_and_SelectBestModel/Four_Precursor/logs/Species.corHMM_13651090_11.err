@@ -1,9 +1,0 @@
-
-The following have been reloaded with a version change:
-  1) R/4.1 => R/4.0
-
-head: cannot open 'randomiplist.n100.out.csv' for reading: No such file or directory
-Loading required package: ape
-Loading required package: nloptr
-Loading required package: GenSA
-slurmstepd: error: *** JOB 13651510 ON c0702a-s24 CANCELLED AT 2021-12-06T14:44:58 DUE TO TIME LIMIT ***
