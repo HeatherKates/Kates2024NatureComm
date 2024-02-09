@@ -73,7 +73,7 @@ new.tipstate_matrix$newstates[new.tipstate_matrix$V1=="UFL_P03_WG05"]<-"Rhizobia
 new.tipstate_matrix[is.na(new.tipstate_matrix$newstates),]$V1
 
 #Drop the wells that are missing newstates from the tree 
-load("../../../v7.Backbone_astral003/corHMM/v7.joint.bestML.v2.edit.v2.RData")
+load("../../AncestralStateReconstruction.RDATA")
 tree <- v7.joint.bestML.edit.v2$phy
 tree <- drop.tip(tree, new.tipstate_matrix[is.na(new.tipstate_matrix$newstates),]$V1, trim.internal = TRUE, subtree = FALSE,
          root.edge = 0, rooted = is.rooted(tree), collapse.singles = TRUE,
