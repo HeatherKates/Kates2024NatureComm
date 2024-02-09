@@ -1,0 +1,329 @@
+State distribution in data:
+States:	1	1&2	2	
+Counts:	17339	13	7021	
+Beginning thorough optimization search -- performing 0 random restarts 
+Finished. Inferring ancestral states using marginal reconstruction. 
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+1     3.715978e-05     3.715978e-05 291.6802                     1
+  proportion_2_at_focal
+1          6.630171e-13
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+2     6.789042e-05     3.715978e-05 283.2257                     1
+  proportion_2_at_focal
+2          2.215383e-12
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+3     0.0001240349     3.715978e-05 274.8029                     1
+  proportion_2_at_focal
+3          7.408774e-12
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+4       0.00022661     3.715978e-05 266.7088                     1
+  proportion_2_at_focal
+4          2.481545e-11
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+5     0.0004140135     3.715978e-05 259.4296                     1
+  proportion_2_at_focal
+5          8.335358e-11
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+6      0.000756397     3.715978e-05 253.7517                     1
+  proportion_2_at_focal
+6          2.814008e-10
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+7      0.001381927     3.715978e-05 250.9449                     1
+  proportion_2_at_focal
+7          9.585386e-10
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+8      0.002524762     3.715978e-05 252.9726                     1
+  proportion_2_at_focal
+8          3.315657e-09
+  (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+9      0.004612706     3.715978e-05 264.1023                     1
+  proportion_2_at_focal
+9          1.176199e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+10     3.715978e-05     6.789042e-05 284.9031                     1
+   proportion_2_at_focal
+10          1.211491e-12
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+11     6.789042e-05     6.789042e-05 276.7485                     1
+   proportion_2_at_focal
+11          4.048035e-12
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+12     0.0001240349     6.789042e-05 268.5894                     1
+   proportion_2_at_focal
+12          1.353761e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+13       0.00022661     6.789042e-05 260.7055                     1
+   proportion_2_at_focal
+13          4.534381e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+14     0.0004140135     6.789042e-05 253.5926                     1
+   proportion_2_at_focal
+14          1.523073e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+15      0.000756397     6.789042e-05 248.0901                     1
+   proportion_2_at_focal
+15           5.14189e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+16      0.001381927     6.789042e-05 245.5994                     1
+   proportion_2_at_focal
+16          1.751495e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+17      0.002524762     6.789042e-05 248.4137                     1
+   proportion_2_at_focal
+17          6.058594e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+18      0.004612706     6.789042e-05 260.5561                     1
+   proportion_2_at_focal
+18          2.149254e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+19     3.715978e-05     0.0001240349 281.1197                     1
+   proportion_2_at_focal
+19          2.213936e-12
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+20     6.789042e-05     0.0001240349 273.2736                     1
+   proportion_2_at_focal
+20          7.397576e-12
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+21     0.0001240349     0.0001240349 265.4131                     1
+   proportion_2_at_focal
+21           2.47393e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+22       0.00022661     0.0001240349 257.7908                     1
+   proportion_2_at_focal
+22          8.286364e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)  logLik proportion_1_at_focal
+23     0.0004140135     0.0001240349 250.888                     1
+   proportion_2_at_focal
+23          2.783349e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+24      0.000756397     0.0001240349 245.5637                     1
+   proportion_2_at_focal
+24          9.396619e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+25      0.001381927     0.0001240349 243.3034                     1
+   proportion_2_at_focal
+25          3.200818e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)  logLik proportion_1_at_focal
+26      0.002524762     0.0001240349 246.629                     1
+   proportion_2_at_focal
+26          1.107208e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+27      0.004612706     0.0001240349 259.7787                     1
+   proportion_2_at_focal
+27          3.927843e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+28     3.715978e-05       0.00022661 283.0531                     1
+   proportion_2_at_focal
+28          4.046696e-12
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+29     6.789042e-05       0.00022661 275.5189                     1
+   proportion_2_at_focal
+29          1.352151e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+30     0.0001240349       0.00022661 267.9674                     1
+   proportion_2_at_focal
+30           4.52193e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+31       0.00022661       0.00022661 260.6381                     1
+   proportion_2_at_focal
+31          1.514612e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+32     0.0004140135       0.00022661 253.9871                     1
+   proportion_2_at_focal
+32          5.087532e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+33      0.000756397       0.00022661 248.8624                     1
+   proportion_2_at_focal
+33           1.71757e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+34      0.001381927       0.00022661 246.7844                     1
+   proportion_2_at_focal
+34          5.850723e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+35      0.002524762       0.00022661 250.4108                     1
+   proportion_2_at_focal
+35          2.023895e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+36      0.004612706       0.00022661 264.2959             0.9999999
+   proportion_2_at_focal
+36          7.180076e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+37     3.715978e-05     0.0004140135 295.5711                     1
+   proportion_2_at_focal
+37          7.399491e-12
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+38     6.789042e-05     0.0004140135 288.4417                     1
+   proportion_2_at_focal
+38          2.472448e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+39     0.0001240349     0.0004140135 281.2206                     1
+   proportion_2_at_focal
+39          8.268501e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+40       0.00022661     0.0004140135 274.1946                     1
+   proportion_2_at_focal
+40          2.769532e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+41     0.0004140135     0.0004140135 267.8151                     1
+   proportion_2_at_focal
+41          9.302836e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+42      0.000756397     0.0004140135 262.9045                     1
+   proportion_2_at_focal
+42          3.140716e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+43      0.001381927     0.0004140135 260.9723                     1
+   proportion_2_at_focal
+43          1.069879e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+44      0.002524762     0.0004140135 264.7274                     1
+   proportion_2_at_focal
+44          3.701106e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+45      0.004612706     0.0004140135 278.9281             0.9999999
+   proportion_2_at_focal
+45          1.313113e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+46     3.715978e-05      0.000756397 327.4712                     1
+   proportion_2_at_focal
+46           1.35396e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+47     6.789042e-05      0.000756397 320.9624                     1
+   proportion_2_at_focal
+47            4.5241e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)  logLik proportion_1_at_focal
+48     0.0001240349      0.000756397 314.218                     1
+   proportion_2_at_focal
+48          1.512982e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+49       0.00022661      0.000756397 307.5374                     1
+   proportion_2_at_focal
+49          5.067769e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+50     0.0004140135      0.000756397 301.4287                     1
+   proportion_2_at_focal
+50          1.702284e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+51      0.000756397      0.000756397 296.7129                     1
+   proportion_2_at_focal
+51          5.747205e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+52      0.001381927      0.000756397 294.8597                     1
+   proportion_2_at_focal
+52          1.957863e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+53      0.002524762      0.000756397 298.5453             0.9999999
+   proportion_2_at_focal
+53          6.773494e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+54      0.004612706      0.000756397 312.5686             0.9999998
+   proportion_2_at_focal
+54          2.403464e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+55     3.715978e-05      0.001381927 395.5067                     1
+   proportion_2_at_focal
+55          2.480637e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+56     6.789042e-05      0.001381927 389.4742                     1
+   proportion_2_at_focal
+56          8.288798e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+57     0.0001240349      0.001381927 383.3531                     1
+   proportion_2_at_focal
+57          2.772022e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+58       0.00022661      0.001381927 377.1916                     1
+   proportion_2_at_focal
+58          9.285088e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+59     0.0004140135      0.001381927 371.3993                     1
+   proportion_2_at_focal
+59          3.118982e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+60      0.000756397      0.001381927 366.8216                     1
+   proportion_2_at_focal
+60          1.053072e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+61      0.001381927      0.001381927 364.8972                     1
+   proportion_2_at_focal
+61          3.587731e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+62      0.002524762      0.001381927 368.1927             0.9999999
+   proportion_2_at_focal
+62            1.2414e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+63      0.004612706      0.001381927 381.3616             0.9999996
+   proportion_2_at_focal
+63          4.405916e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+64     3.715978e-05      0.002524762 530.6106                     1
+   proportion_2_at_focal
+64          4.555466e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+65     6.789042e-05      0.002524762 524.7304                     1
+   proportion_2_at_focal
+65          1.522175e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+66     0.0001240349      0.002524762 518.9425                     1
+   proportion_2_at_focal
+66          5.090684e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)  logLik proportion_1_at_focal
+67       0.00022661      0.002524762 513.289                     1
+   proportion_2_at_focal
+67          1.705208e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+68     0.0004140135      0.002524762 507.9255                     1
+   proportion_2_at_focal
+68          5.728294e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+69      0.000756397      0.002524762 503.4433                     1
+   proportion_2_at_focal
+69          1.934231e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+70      0.001381927      0.002524762 501.1689             0.9999999
+   proportion_2_at_focal
+70          6.590777e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+71      0.002524762      0.002524762 503.4836             0.9999998
+   proportion_2_at_focal
+71          2.281086e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+72      0.004612706      0.002524762 514.6648             0.9999992
+   proportion_2_at_focal
+72          8.099322e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+73     3.715978e-05      0.004612706 788.7041                     1
+   proportion_2_at_focal
+73          8.401459e-11
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+74     6.789042e-05      0.004612706 782.8208                     1
+   proportion_2_at_focal
+74          2.807328e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+75     0.0001240349      0.004612706 777.0518                     1
+   proportion_2_at_focal
+75          9.388941e-10
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+76       0.00022661      0.004612706 771.4832                     1
+   proportion_2_at_focal
+76          3.145136e-09
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+77     0.0004140135      0.004612706 766.2607                     1
+   proportion_2_at_focal
+77          1.056639e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+78      0.000756397      0.004612706 761.6908                     1
+   proportion_2_at_focal
+78           3.56845e-08
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+79      0.001381927      0.004612706 758.5924             0.9999999
+   proportion_2_at_focal
+79          1.216272e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)   logLik proportion_1_at_focal
+80      0.002524762      0.004612706 758.8338             0.9999996
+   proportion_2_at_focal
+80          4.211575e-07
+   (2,R1) -> (1,R1) (1,R1) -> (2,R1)  logLik proportion_1_at_focal
+81      0.004612706      0.004612706 765.946             0.9999985
+   proportion_2_at_focal
+81          1.496542e-06
