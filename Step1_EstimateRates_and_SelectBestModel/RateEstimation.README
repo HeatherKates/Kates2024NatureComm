@@ -1,0 +1,11 @@
+In each rate category directory:
+
+1) The script named "2_Submit100RepsRateEstimation.*.sbatch" was used to create, run, and remove 100 iterations of the template file "Step2_EstimateRates.*.R".
+
+2) The output files of these 100 iterations were printed to the rate category directory subdirectory "RData_100_Reps"
+
+3) The script named "Step3_Print_Likelihood_and_AICs.R" was used to load 100 files from "RData_100_Reps" and print their likelihood and AIC values to a csv file named "*.100Restarts.MLandAIC.csv". The iteration with the best score was renamed and put into the "RateEstimation_Output/" directory.
+
+4) These files in "RateEstimation_Output/" (the best scoring rate estimation for each rate category) were used to establish the best rate category and in some cases as inputs for ancestral character state reconstruction
+
+*Look in Three_Precursor for more clearly named files
