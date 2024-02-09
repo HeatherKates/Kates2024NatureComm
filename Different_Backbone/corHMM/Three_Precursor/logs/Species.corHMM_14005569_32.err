@@ -1,0 +1,5 @@
+Loading required package: ape
+Loading required package: nloptr
+Loading required package: GenSA
+Warning in corHMM(tree, tipstate_matrix, 3, rate.mat = HR3.precursorish.FullMat,  :
+  Branch lengths of 0 detected. Adding 1e-5 to these branches.

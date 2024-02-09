@@ -1,0 +1,2 @@
+pxrlt -t Nitfix.tree.v7.tree -c ../Find_wells.txt -n ../Replace_taxon_names.txt -o Nitfix.taxtree.v7.tree
+pxrlt -t DiffBB.v7.Nitfix.tree -c ../../Find_wells.txt -n ../../Replace_taxon_names.txt -o DiffBB.v7.Nitfix.taxtree.tree

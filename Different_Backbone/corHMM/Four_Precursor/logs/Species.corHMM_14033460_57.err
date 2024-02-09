@@ -1,0 +1,11 @@
+
+The following have been reloaded with a version change:
+  1) R/4.1 => R/4.0
+
+head: cannot open 'randomiplist.n100.out.csv' for reading: No such file or directory
+Loading required package: ape
+Loading required package: nloptr
+Loading required package: GenSA
+Warning in corHMM(tree, tipstate_matrix, 4, rate.mat = index.mat, node.states = "none",  :
+  Branch lengths of 0 detected. Adding 1e-5 to these branches.
+slurmstepd: error: *** JOB 14033627 ON c0704a-s19 CANCELLED AT 2021-12-11T14:16:50 DUE TO TIME LIMIT ***
