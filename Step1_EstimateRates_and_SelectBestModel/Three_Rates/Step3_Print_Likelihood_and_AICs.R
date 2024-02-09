@@ -2,9 +2,10 @@ library(dplyr)
 #This script is run from within the model's directory
 #setwd("./Github/EstimateRates_and_SelectBestModel/Model")
 #Set the model being tested
-Model = "Three_Precursor"
+Model = "ThreeRates"
 #Load .RData files that each include a corhmm object for a random restart
-files=list.files(path="RData_100_Reps/")
+files = list.files(path="RData_100_Reps/", pattern=paste0("^", Model, ".*"))
+
 for (i in 1:length(files)){load(paste("RData_100_Reps",files[i],sep="/"))}
 # Get names of all objects of class "corhmm"
 corhmm_names <- ls()[sapply(ls(), function(x) inherits(get(x), "corhmm"))]

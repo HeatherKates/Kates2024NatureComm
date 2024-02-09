@@ -8,4 +8,6 @@ In each rate category directory:
 
 4) These files in "RateEstimation_Output/" (the best scoring rate estimation for each rate category) were used to establish the best rate category and in some cases as inputs for ancestral character state reconstruction
 
+5) The list of p values from the best scoring rate estimation is formatted as a vector using the script "Step4_Format_p_from_RData.R" and this vector is copy and pasted into the *recon.R script in "../Step2_AncestralStateReconstruction/"
+
 *Look in Three_Precursor for more clearly named files
