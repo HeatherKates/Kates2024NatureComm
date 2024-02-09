@@ -11,11 +11,10 @@ library(treeio)
 #Loading and formatting data
 #################Species tree##################
 ##LOAD DATA##
-load("v7.Backbone_astral003/corHMM/v7.joint.bestML.v2.edit.v2.RData")
+load("../Step2_AncestralStateReconstruction/AncestralStateReconstruction.RDATA")
 #temp
 tips <- as.data.frame(v7.joint.bestML.edit.v2$phy$tip.label)
-#sp.taxtree=read.tree("v7.Backbone_astral003/corHMM/Nitfix.taxtree.v7.tree") This was the tree with unaccepted names
-sp.taxtree=read.tree("v7.Backbone_astral003/corHMM/Resubmission_Renaming/Nitfix.taxtree.v7.acceptednames.tree")
+sp.taxtree=read.tree("../InputDataFiles/Phylogeny.WithTaxonLabels.tree")
 tax_tips <- as.data.frame(sp.taxtree$tip.label)
 
 #Node states
