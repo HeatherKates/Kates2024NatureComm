@@ -16,4 +16,4 @@ edit.DiffBB.joint.bestML <- corHMM(tree,tipstate_matrix,3,rate.mat=HR3.precursor
                      node.states="joint",fixed.nodes=FALSE,p=c(0.000804457357351217,1e-09,1e-09,0.0814636247178405,2.74257974809602,0.104767007545373,0.0236320709662464,1e-09,0.00730764831888938,1e-09,0.0234002743733769),root.p=NULL,
                      ip=NULL,nstarts=0,n.cores=1,get.tip.states=FALSE,lewis.asc.bias=FALSE,
                      lower.bound = 1e-9,upper.bound = 100)
-save.image("edit.DiffBB.joint.bestML.RData")
+save.image("AncestralStateReconstruction.AltBackbone.RData")

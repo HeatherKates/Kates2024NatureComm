@@ -1,0 +1,5 @@
+These are the R scripts used to perform ancestral character state estimation on various phylogenies.
+
+N.b. files did not originate in this dir and have been moved from their respective topology/rateCategory dir for clarity and filepaths have been updated in the scripts
+
+starting p values are taken from the best rate estimation result using Step4 in the relevant topology/rateCategory (see README in "Step1_EstimateRates_and_SelectBestModel/")
