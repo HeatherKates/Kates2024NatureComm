@@ -1,5 +1,0 @@
-Starting rserver on port 35478 in the /blue/soltis/hkates/NITFIX/Recon_MS/v7.Backbone_astral003/corHMM/Github directory.
-Create an SSH tunnel with:
-ssh -N -L 8080:c0710a-s10.ufhpc:35478 hkates@hpg.rc.ufl.edu
-Then, open in the local browser:
-http://localhost:8080

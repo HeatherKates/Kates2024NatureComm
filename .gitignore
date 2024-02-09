@@ -8,6 +8,5 @@ dentist.R
 dentist.sbatch
 FileNameChanges.txt
 rserver/
-*log
 rserver*
 
