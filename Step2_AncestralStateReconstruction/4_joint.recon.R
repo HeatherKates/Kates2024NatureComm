@@ -21,4 +21,4 @@ AncPres.bestML.joint <- corHMM(tree,tipstate_matrix,3,rate.mat=HR3.precursorish.
                      node.states="joint",fixed.nodes=TRUE,p=c(0.000567662444097088,1e-09,1e-09,0.0997921919038487,0.79698010287882,0.109278427625107,0.0276030407790772,1e-09,0.00837136624909948,1e-09,0.021712143383508),root.p=NULL,
                      ip=NULL,nstarts=0,n.cores=1,get.tip.states=FALSE,lewis.asc.bias=FALSE,
                      lower.bound = 1e-9,upper.bound = 100)
-save.image("AncPres.bestML.joint.RData")
+save.image("AncestralStateReconstruction.AncestralPresenceAnalysis.RDATA")
