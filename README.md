@@ -20,6 +20,13 @@ output: github_document
 
 * For detailed explanation of file structure and files in this subdir, see the README within the subdir.
 
+* These subdirectories include the following models to test alternative hypotheses:
+    "Two_States_Custom": Even at the upper limit of the rate of loss tested        (when loss of nodulation is over 60 times more likely than gain), a            marginal character state reconstruction estimates that the ancestor of the     NFC lacks RNS (Supplementary Fig. 8).
+    
+    "Three_Precursor_AncestralAbsence": An analysis in which the ancestor of the NFC is fixed as non-nodulating for direct comparison with the alternative below.
+    
+    "Three_Precursor_AncestralPresence": An analysis in which the ancestor of the NFC is fixed as nodulating, thus requiring the gain proposed by the single-gain multiple-loss hypothesis34, shows that an extremely high rate of loss is required to accommodate this ancestral state (Supplementary Fig. 9); this high-loss rate model is a dramatically poorer fit to the data than the best model (Supplementary Table 2B). 
+
 ## Step2_AncestralStateReconstruction
 
 * This directory is used for performing ancestral state reconstruction on the best model(s) within and across all tested rate categories. 
@@ -32,6 +39,15 @@ output: github_document
 
 * This directory includes R scripts used to create the figures in the paper and supplement. 
 
-## Compare_Lihelihood_Ancestral_PresvsAbs
+## Compare_Likelihood_Ancestral_PresvsAbs
 
-This directory includes files used for the methods section "Comparing the likelihood of ancestral presence vs. absence""
+This directory includes files used for the methods section "Comparing the likelihood of ancestral presence vs. absence". 
+
+We tested evolutionary models with a range of gain and loss rates to see under which relative rates the ancestor of the NFC is more likely to be nodulating than non-nodulating, consistent with the single-gain multiple-loss hypothesis proposed to explain gene presence/absence34. Even at the upper limit of the rate of loss tested (when loss of nodulation is over 60 times more likely than gain), a marginal character state reconstruction estimates that the ancestor of the NFC lacks RNS (Supplementary Fig. 8). 
+
+## Dentist 
+
+For our best-fitting model, we estimated uncertainty for all parameter estimates by sampling points around Δ2 from the maximum likelihood estimates using the R package dentist (https://github.com/bomeara/dentist; Supplementary Table 3)
+
+## Alternative_Backbone_Topology
+
