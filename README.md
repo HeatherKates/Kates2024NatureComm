@@ -31,3 +31,7 @@ output: github_document
 ## Step3_Figures
 
 * This directory includes R scripts used to create the figures in the paper and supplement. 
+
+## Compare_Lihelihood_Ancestral_PresvsAbs
+
+This directory includes files used for the methods section "Comparing the likelihood of ancestral presence vs. absence""
