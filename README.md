@@ -51,3 +51,5 @@ For our best-fitting model, we estimated uncertainty for all parameter estimates
 
 ## Alternative_Backbone_Topology
 
+These are scripts used to test the effect of using an alternative topology on ancestral character state reconstruction. We used the NFC backbone resolved by Zanne et al. (2014)30 following14 and the more recent Leguminosae backbone phylogeny resolved by Koenen et al. (2020)25 to construct a supertree from our independently analyzed subclades (relationships among families in Rosales remained the same as in our primary analysis) (Supplementary Note 4) and performed hidden rate modeling and ancestral character state reconstruction following the same steps described for the main topology.
+
